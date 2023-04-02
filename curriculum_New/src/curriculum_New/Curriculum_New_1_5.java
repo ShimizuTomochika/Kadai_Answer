@@ -4,7 +4,7 @@ public class Curriculum_New_1_5 {
 
     public static void main(String[] args) {
 
-        // Q1 『』で囲われた人の自己紹介をformatの通り出力してください
+        // Q1 『』で囲われた人の情報を変数にして、formatの通りコンソールに出力してください
         //  好きな食べ物のみインスタンス変数にして、他の項目はローカル変数に代入し○○に入れてください
         // 『山田太郎 18歳 170.5cm 62.2kg 寿司』
 

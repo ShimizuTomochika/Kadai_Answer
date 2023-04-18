@@ -40,8 +40,7 @@ public class Curriculum_New_1_18{
 		Random rum = new Random();
 		int[] indexs = new int[index];
 		for(int i = 0;i < indexs.length;i++)
-		indexs[i] = rum.nextInt(99) + 1;
-
+			System.out.println(indexs[i] = rum.nextInt(99) + 1);
 		return indexs;
 	}
 
@@ -65,7 +64,7 @@ public class Curriculum_New_1_18{
 		
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
 	public static boolean boo(double ave) {
-			if(ave < 50) {
+			if(ave >= 50) {
 				return true;
 			}else {
 				return false;
@@ -84,6 +83,7 @@ public class Curriculum_New_1_18{
     	// Q4
     	sum(1.4,1.6);
     	// Q5,Q6,Q7
+    	rum(5);
     	System.out.println(boo(aveg(rum(5))));
      }
 }

@@ -1,11 +1,11 @@
 package curriculum_now.lesson1_5;
 
 public class Curriculum_New_1_5 {
-
+	static String like;
     public static void main(String[] args) {
 
         // Q1 『』で囲われた人の情報を変数にして、formatの通りコンソールに出力してください
-        //  好きな食べ物のみインスタンス変数にして、他の項目はローカル変数に代入し○○に入れてください
+        //  項目はローカル変数に代入し、formatの○○に入れてください
         // 『山田太郎 18歳 170.5cm 62.2kg 寿司』
 
         // ↓↓format↓↓
@@ -22,7 +22,7 @@ public class Curriculum_New_1_5 {
     	int age = 18;
     	double hei = 170.5d;
     	double wi = 62.2d;
-    	String like = "寿司";
+    	like = "寿司";
     	
     	System.out.println("初めまして" + name + "です");
     	System.out.println("年齢は" + age + "歳です");

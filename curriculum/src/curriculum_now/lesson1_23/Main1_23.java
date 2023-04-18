@@ -1,4 +1,4 @@
-package sub;
+package curriculum_now.lesson1_23;
 
 public class Main1_23 {
 
